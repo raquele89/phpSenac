@@ -1,0 +1,11 @@
+<?php
+
+echo "Qual o seu animal favorito?";
+
+$animal = fgets(STDIN);
+
+echo " Qual a sua cor favorita ?";
+
+$cor = fgets(STDIN);
+
+echo " Seu animal favorito é $animal e sua cor favorita é $cor !";

@@ -1,0 +1,16 @@
+<?php
+
+echo " Informe o nome de Usuário:";
+
+$usuário = fgets(STDIN);
+
+echo " Em poucas palavras, faça uma descrição sobre si mesma(o):";
+
+$descrição = fgets( STDIN);
+
+echo " Cadastro realizado com Sucesso !";
+
+echo " Usuário: $usuário";
+
+echo " Descrição: $descrição";
+
